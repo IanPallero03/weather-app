@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>weather app</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div id="background"></div>
+		<header>
+			<h1 class="title"><img class="weather-icon" src="images/weather-icon.webp" alt="weather logo" />CLIMA</h1>
+			<input id="get-city" type="text" placeholder="Ingresa una ciudad." />
+			<div id="history-container">
+				<h3>Historial de búsquedas</h3>
+				<ul id="history-list"></ul>
+			  </div>
+			  
+		</header>
+
+		<main>
+			<div class="info-container">
+				<h3 class="city-name"></h3>
+				<p class="date-info"><span class="day"></span><span class="date"></span></p>
+				<h2 class="weather-deg"></h2>
+				<h3 class="weather-condition"></h3>
+				<h3 class="humidity"></h3>
+			</div>
+		</main>
+	</body>
+</html>
